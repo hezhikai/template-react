@@ -74,6 +74,7 @@ function loopRoutes(routes: Array<any>, parentPath = ''): Array<any> {
 const dealedRoutes = loopRoutes(routes);
 // console.log(dealedRoutes);
 // console.log(Login);
+
 export default function App() {
   return (
     <Router>
