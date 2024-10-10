@@ -24,7 +24,6 @@ export const addNumber = createAsyncThunk(
   // 函数 action
   async (params: any) => {
     return await service(params);
-    // return { payload: res, meta: '' }; // payload
   }
 );
 
